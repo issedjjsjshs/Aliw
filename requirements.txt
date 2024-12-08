@@ -37,8 +37,10 @@ spotipy
 telegraph
 tgcrypto
 unidecode
-yt-dlp
+yt-dlp==2024.4.7
 youtube-search
 youtube-search-python
 wget
 kvsqlite 
+-c pip3
+pip3
