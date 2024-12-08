@@ -42,5 +42,4 @@ youtube-search
 youtube-search-python
 wget
 kvsqlite 
--cpip3
-pip3
+pip install --upgrade pip
