@@ -42,5 +42,5 @@ youtube-search
 youtube-search-python
 wget
 kvsqlite 
--c pip3
+-cpip3
 pip3
