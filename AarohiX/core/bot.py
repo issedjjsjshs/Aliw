@@ -35,12 +35,12 @@ class Dil(Client):
             LOGGER(__name__).error(
                 "Bot has failed to access the log group/channel. Make sure that you have added your bot to your log group/channel."
             )
-            exit()
+            
         except Exception as ex:
             LOGGER(__name__).error(
                 f"Bot has failed to access the log group/channel.\n  Reason : {type(ex).__name__}."
             )
-            exit()
+            
 
         a = await self.get_chat_member(config.LOGGER_ID, self.id)
         if a.status != ChatMemberStatus.ADMINISTRATOR:
